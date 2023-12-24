@@ -84,4 +84,19 @@ h1{
     body {
         background-position: right center; 
     }
+    
+    .content {
+        transform: scale(0.6) translate(-85%, 20%); /* ajuste os valores conforme necessário */
+    }
+    
+    /* Seletor para o contêiner do canvas */
+    .canvas_container {
+        transform: scale(0.8) translate(-20%, 10%); /* ajuste os valores conforme necessário */
+    }
+    
+    /* Seletor para o elemento SVG */
+    svg {
+        transform: scale(0.8) translate(-20%, 10%); /* ajuste os valores conforme necessário */
+    }
 }
+
