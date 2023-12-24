@@ -72,6 +72,18 @@ h1{
     body {
         background-position: right center; 
     }
+      .content {
+        transform: scale(0.6) translate(-75%, 20%); 
+    }
+    
+    .canvas_container {
+        transform: scale(0.8) translate(-20%, 10%); 
+    }
+    
+  
+    svg {
+        transform: scale(0.8) translate(-20%, 10%); 
+    }
 }
 
 @media (max-width: 480px) {
@@ -79,24 +91,22 @@ h1{
         font-size: 3.5rem;
         left: 25%;
     }
-
     
     body {
         background-position: right center; 
     }
     
     .content {
-        transform: scale(0.6) translate(-85%, 20%); /* ajuste os valores conforme necessário */
+        transform: scale(0.6) translate(-85%, 20%); 
     }
     
-    /* Seletor para o contêiner do canvas */
+
     .canvas_container {
-        transform: scale(0.8) translate(-20%, 10%); /* ajuste os valores conforme necessário */
+        transform: scale(0.8) translate(-20%, 10%);
     }
     
-    /* Seletor para o elemento SVG */
     svg {
-        transform: scale(0.8) translate(-20%, 10%); /* ajuste os valores conforme necessário */
+        transform: scale(0.8) translate(-20%, 10%); 
     }
 }
 
