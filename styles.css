@@ -26,6 +26,7 @@ h1{
     left: 10%;
     animation: text-animate 5s linear infinite;
     -webkit-animation: text-animate 5s linear infinite;
+     margin-bottom: 10%;
 }
 
 .snow{
