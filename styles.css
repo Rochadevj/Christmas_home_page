@@ -16,6 +16,7 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    overflow: hidden;
 }
 
 h1{
@@ -26,7 +27,7 @@ h1{
     left: 10%;
     animation: text-animate 5s linear infinite;
     -webkit-animation: text-animate 5s linear infinite;
-     margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .snow{
@@ -62,12 +63,15 @@ h1{
     }
 }
 
+
+
 .content {
     transform: scale(0.8) translate(-100%, 12%); 
 }
 
+
 .canvas_container {
-    transform: scale(0.8) translate(-20%, 10%); 
+    transform: scale(0.8) translate(-20%, 10%);
 }
 
 svg {
@@ -80,23 +84,23 @@ svg {
         font-size: 5rem;
         left: 25%;
     }
-
     body {
         background-position: right center; 
     }
-      .content {
-        transform: scale(0.6) translate(-75%, 20%); 
+    .content {
+        transform: scale(0.6) translate(-75%, 20%);
     }
     
     .canvas_container {
-        transform: scale(0.8) translate(-20%, 10%); 
+        transform: scale(0.8) translate(-20%, 10%);
     }
-    
-  
+
     svg {
         transform: scale(0.8) translate(-20%, 10%); 
     }
 }
+
+
 
 @media (max-width: 480px) {
     h1 {
@@ -105,20 +109,17 @@ svg {
     }
     
     body {
-        background-position: right center; 
+        background-position: right center;
     }
-    
+
     .content {
         transform: scale(0.6) translate(-85%, 20%); 
     }
-    
-
     .canvas_container {
         transform: scale(0.8) translate(-20%, 10%);
     }
-    
     svg {
         transform: scale(0.8) translate(-20%, 10%); 
     }
+    
 }
-
