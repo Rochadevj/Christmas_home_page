@@ -106,7 +106,7 @@ svg {
     h1 {
         font-size: 3.5rem;
         left: 25%;
-        margin-bottom: 37%;
+        margin-bottom: 40%;
     }
     
     body {
@@ -114,7 +114,7 @@ svg {
     }
 
     .content {
-        transform: scale(0.6) translate(-85%, 9%); 
+        transform: scale(0.6) translate(-85%, 7%); 
     }
     .canvas_container {
         transform: scale(0.8) translate(-20%, 10%);
