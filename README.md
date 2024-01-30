@@ -1,7 +1,7 @@
 
 # Christmas HomePage 🎄✨
 
-Bem-vindo ao meu projeto de Natal! 🌟 Este é um home page onde a alegria das festas ganha vida. 🎅✨
+Bem-vindo(a)  ao meu projeto de Natal! 🌟 Este é um home page onde a alegria das festas ganha vida. 🎅✨
 
 ## Layout web
 ![Captura de Tela (118)](https://github.com/Rochadevj/Christmas_home_page/assets/81716008/bd8de574-85bc-4e0d-815d-b0fb3e47c499)
